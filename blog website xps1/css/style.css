@@ -1,0 +1,236 @@
+* {
+  /*for all*/
+  margin: 0%;
+  padding: 0;
+  
+}
+body::-webkit-scrollbar
+{
+    width: 0px;
+}
+.navigation {
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* .nav-left {
+  font-weight: bolder;
+  font-size:x-large;
+  color: rgb(44, 13, 13);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+} */
+
+.nav-left img{
+  border-radius: 50px;
+  display: flex;
+  height: 100px;
+}
+
+.nav-right{
+  height: 10px;
+  
+}
+.nav-center ul li {
+  list-style-type: none;          /*helps to remove dot sign*/
+  margin: 0 25px; /*up-down margin:0, left-right margin:14*/
+  font-family: var(--font1);
+  font-weight: normal;
+
+}
+.nav-centerrr ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  font-size: medium;
+  margin: 0 90px;
+}
+.nav-centerrr ul li a{
+  text-decoration: none;
+  color: black;
+  /* text-align: center; */
+  transition: all 0.3s ease-in-out;
+  margin: 0 20px;
+}
+.nav-centerrr ul li a:hover{
+  font-weight: bolder;
+  color: brown;
+  transform: translateY(-3px);
+}
+
+.btn {
+  background-color: rgb(204, 204, 204);
+  padding: 3px;
+  border: 2px solid rgb(54, 53, 53);
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.5s;
+}
+.btn:hover {
+  color: rgb(242, 242, 242);
+  background-color: brown;
+}
+.forminput {
+  padding: 3px 5px;
+  font-size: small;
+  font-weight: normal;
+  border: 2px solid black;
+  border-radius: 7px;
+  margin: 0px 15px;
+}
+
+.content {
+  padding: 9px;
+  height: 300px;
+margin-top: 30px;
+  /* background-color: rgb(216, 197, 187);  */
+  display: flex;
+  border-radius: 25px; 
+  position: relative;
+}
+
+.content::after{
+  content: "";
+  background-image: url(../blog4.jpeg);
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15 ;
+  
+}
+
+.content-left{
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;     /* help to align item in center */
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.content-left h1{
+  margin-bottom: 10px;
+  color: rgb(72, 18, 18)
+}
+
+.content-right{
+width: 50%;
+  display: flex;
+}
+
+.content-right img{
+margin-top: 35px;
+height: 200px;
+width: auto;
+border: 1px light rgb(255, 225, 217);
+border-radius: 35px;
+margin-right: 50px;
+}
+
+
+
+
+.max-width-1{
+  margin-top: 15px;
+}
+
+.home-articles{
+ background-color: rgb(253, 241, 227, 0.5);    /*alpha=transparency */
+font-family: "Times New Roman", Times, serif;
+/* padding-top: 12px;
+padding-left: 10px; */
+padding: 18px;
+margin-top: 23px;
+}
+.home-article{
+font-family:'Times New Roman', Times, serif;
+display: flex;
+padding: 10px 20px;
+}
+.home-article img{
+  height: auto;
+  width: 300px;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+.home-article-content{
+  align-self: center;
+  font-family:'Times New Roman', Times, serif; 
+  font-size: large;
+}
+
+
+.home-article-content a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+} 
+.home-article-content a:hover{
+  color: rgb(85, 15, 15);
+}
+
+.footer {
+  font-family: 'Times New Roman', Times, serif;
+  height: 50px;
+  background-color: rgb(136, 86, 86);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(231, 195, 195);
+  margin: 0 0;
+  max-width: 100%;
+}
+.footer a{
+  color: rgb(231, 195, 195);
+  cursor: pointer;
+  text-decoration: none;
+}
+.footer a:hover{
+  color: bisque;
+}
+
+footer {
+  background-color: rgb(136, 86, 86);
+  color: rgb(231, 195, 195);
+}
+footer {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 10px;
+  font-size: large;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(231, 195, 195);
+  text-decoration: none;
+}
+footer a:hover {
+  color: bisque;
+}
+
+.info-block {
+  margin-left: 0;
+  margin-top: 10px;
+}
+.about-xps {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.info-block h2,
+.info-block h3 {
+  text-transform: uppercase;
+  margin-top: auto;
+  margin-bottom: 0;
+  font-weight: 100;
+}
+.info-block p {
+  margin-top: auto;
+  margin-bottom: 0;
+}

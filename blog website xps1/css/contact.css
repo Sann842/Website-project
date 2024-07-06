@@ -1,0 +1,56 @@
+body {
+  background-color: #f7f1f1;
+}
+.contact-content {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  padding: 9px;
+  height: 100vh;
+  margin-top: 30px;
+  border-radius: 25px; 
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-content::after{
+  content: "";
+  background-image: url(../blog4.jpeg);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  z-index: -1;        /*  zindex is used to bring content above */
+}
+
+.heading{
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: rgb(226, 44, 44);
+}
+.contact-form{
+  max-width: 400px;
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+.form-box .btn {
+  background-color: #ff5c00;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 80px;
+  border: 1px solid #ff5c00;
+}
+.form-box .btn:hover{
+  background-color: white;
+  color: #ff5c00;
+}
+@media (max-width:800px) {
+  .contact-form{
+    width: 80vw;
+  }
+}
+

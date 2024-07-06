@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/utils.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/contact.css" type="text/css">
+  <script src="validation.js"></script>
+
+  <title>XPS Blog- Heaven for Bloggers</title>
+</head>
+
+<body>
+  <nav class="navigation    max-width-1  m-auto">
+
+    <div class="nav-left"> 
+      <img src="XPS.png">
+    </div>
+
+    <div class="nav-centerrr">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/gallery.html">Gallery</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/contact.html">Contact page</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-right">
+      <form action="/search.html" method="get">
+        <input class="forminput" type="text" name="query" placeholder="Article search">
+        <button class="btn">search</button>
+      </form>
+    </div>
+  </nav>
+  <div class=" max-width-1 m-auto">
+    <hr>
+  </div>
+
+
+  <div class="contact-content">
+    <form name="Contact" onsubmit="return validateForm()" method="POST">
+      <div class="heading">
+        Feel Free To Contact Us
+      </div>
+      <div class="contact-form">
+        <div class="form-box">
+          <input type="hidden" name="access_key" value="d4dc3073-7aa4-43dc-a052-37845a67c1c5">
+          <span>Name:</span>
+          <br>
+          <input type="text" name="name" placeholder="Enter your name">
+          <br>
+          <span>E-mail:</span>
+          <br>
+          <input type="text" name="email" placeholder="Enter your email">
+          <br>
+          <span>Phone Number:</span>
+          <br>
+          <input type="text" name="phone" placeholder="Enter your phone number">
+          <br>
+          <span>Query:</span>
+          <br>
+          <textarea name="query" id="query" cols="30" rows="15" placeholder="Enter your query"></textarea>
+          <br>
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <div class="info-block">
+        <h2>XPS Blog</h2>
+        <h3>Bagbazar, Kathmandu</h3>
+        <p>Phone No: +977</p>
+        <p>E-mail: info@xpsblog.com.np</p>
+    </div>
+    <div class="about-xps">
+        <a href="index.html"> <span>Home</span> </a><br>
+        <a href="gallery.html"> <span>Gallery</span> </a><br>
+        <a href="blog.html"> <span>Blog </span> </a><br>
+        <a href="contact.html"> <span>Contact Us</span> </a><br>
+    </div>
+</footer>
+
+<div class="footer  max-width-2  m-auto">
+    <p>Copyright &copy XPSblog.com</p>
+    <a href="XPS.png">Credit to: XPS Team</a>
+</div>
+</body>
+</html>

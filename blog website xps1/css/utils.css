@@ -1,0 +1,34 @@
+
+
+
+.max-width-1 {
+  /*width, margin*/
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw; /*vw: view port width  "adjustable while minimizing"*/
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-y2{
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+img {
+  height: 70px;
+}
+.nav-centerrr ul{
+  margin: 0 90px;
+}
+
+.form-box input, textarea{
+  width: 34vw;
+  padding: 10px 7px;
+  margin: 7px 0px;
+  /* border-radius: 4px; */
+}

@@ -1,0 +1,17 @@
+.title1 h3{
+    color: rgb(161, 124, 196);
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.image1 {
+    text-align: center;   
+}
+.paragraph {
+    font-size: larger;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
